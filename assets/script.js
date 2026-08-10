@@ -1,0 +1,2 @@
+const menu=document.querySelector('.menu');const links=document.querySelector('.navlinks');if(menu&&links){menu.addEventListener('click',()=>links.classList.toggle('open'))}
+document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));btn.classList.add('active');const f=btn.dataset.filter;document.querySelectorAll('.pub').forEach(p=>p.classList.toggle('hide',f!=='all'&&!p.dataset.cat.includes(f))) }));
