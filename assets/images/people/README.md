@@ -1,0 +1,1 @@
+PI and member portraits. Use lowercase hyphenated names such as `lei-gu.webp`, `chang-liu.webp`, `zhixin-niu.webp`. Prefer consistent square crops for team cards.
