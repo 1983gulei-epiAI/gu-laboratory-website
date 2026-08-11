@@ -1,0 +1,1 @@
+Laboratory-owned scientific figures, schematics and research visuals. Use descriptive lowercase filenames such as `imotif-model.webp`, `stag2-melanoma.webp`, `ageing-clock.webp`, `janusdna.webp`.
