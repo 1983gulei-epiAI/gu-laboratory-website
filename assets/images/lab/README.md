@@ -1,0 +1,1 @@
+Laboratory group photos and lab-life images. Recommended filenames: `group-YYYY.webp`, `retreat-YYYY.webp`, `lab-YYYY.webp`.
