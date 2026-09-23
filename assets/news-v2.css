@@ -11,8 +11,17 @@
 @media(max-width:720px){.news-item,.news-item.has-image{grid-template-columns:1fr;gap:8px}.news-thumb{width:100%;height:auto;max-height:280px}.news-date{margin-bottom:2px}}
 .news-thumb.contain{height:180px;object-fit:contain;background:#fff;padding:4px}
 
-.news-item.full-image{grid-template-columns:118px minmax(0,1fr);align-items:start}
-.news-content{min-width:0}
-.news-full-image{display:block;width:min(100%,420px);height:auto;max-height:none;object-fit:contain;margin-top:14px;border-radius:10px;border:1px solid var(--line);background:#fff}
-.news-full-image.point-image{width:min(100%,460px)}
-@media(max-width:720px){.news-item.full-image{grid-template-columns:1fr}.news-full-image,.news-full-image.point-image{width:100%;max-width:520px}}
+
+.news-item.full-image{grid-template-columns:118px minmax(0,1fr);align-items:center}
+.news-item.full-image .news-content{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:center;min-width:0;width:100%}
+.news-item.full-image h3{margin:0;grid-column:1/2}
+.news-item.full-image .news-full-image{grid-column:2/3;display:block;width:auto;height:auto;object-fit:contain;margin:0;border-radius:10px;border:1px solid var(--line);background:#fff}
+.news-item.full-image .news-full-image.china-daily{max-width:210px;max-height:270px}
+.news-item.full-image .news-full-image.point-image{max-width:250px;max-height:170px}
+@media(max-width:720px){
+  .news-item.full-image{grid-template-columns:1fr;gap:8px}
+  .news-item.full-image .news-content{grid-template-columns:1fr;gap:12px}
+  .news-item.full-image .news-full-image,
+  .news-item.full-image .news-full-image.china-daily,
+  .news-item.full-image .news-full-image.point-image{grid-column:1/2;max-width:100%;max-height:320px;margin-top:4px}
+}
