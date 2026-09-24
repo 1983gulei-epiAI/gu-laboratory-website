@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="t d">
+<title id="t">Regulatory maps</title><desc id="d">Professional schematic of epigenomic measurement and regulatory-state mapping.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7fbfa"/><stop offset="1" stop-color="#edf5f3"/></linearGradient>
+<linearGradient id="dna" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b7468"/><stop offset="1" stop-color="#173f4a"/></linearGradient>
+<filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".08"/></filter>
+</defs>
+<rect width="1200" height="750" rx="32" fill="url(#bg)"/>
+<g font-family="Inter,Arial,sans-serif" fill="#10252b"><text x="64" y="82" font-size="30" font-weight="750">MEASURING REGULATORY STATE</text><text x="64" y="118" font-size="17" fill="#607177">DNA methylation · non-canonical DNA structure · chromatin context</text></g>
+<g transform="translate(70 185)" filter="url(#s)">
+<rect width="300" height="430" rx="26" fill="#fff" stroke="#dce5e2"/>
+<text x="28" y="42" font-family="Arial" font-size="17" font-weight="700" fill="#0b7468">DNA &amp; chromatin</text>
+<path d="M85 80 C210 145 210 245 85 315 M215 80 C90 145 90 245 215 315" fill="none" stroke="url(#dna)" stroke-width="12" stroke-linecap="round"/>
+<g stroke="#8dd8c8" stroke-width="5"><path d="M105 105h90"/><path d="M88 145h124"/><path d="M80 185h140"/><path d="M88 225h124"/><path d="M105 265h90"/></g>
+<g fill="#d8b56e"><circle cx="108" cy="106" r="9"/><circle cx="196" cy="146" r="9"/><circle cx="95" cy="226" r="9"/><circle cx="184" cy="266" r="9"/></g>
+<path d="M72 352c44-44 82-44 126 0s82 44 126 0" fill="none" stroke="#173f4a" stroke-width="7"/>
+<text x="28" y="400" font-family="Arial" font-size="14" fill="#607177">sequence · methylation · structure</text>
+</g>
+<g transform="translate(425 185)" filter="url(#s)">
+<rect width="315" height="430" rx="26" fill="#fff" stroke="#dce5e2"/>
+<text x="28" y="42" font-family="Arial" font-size="17" font-weight="700" fill="#0b7468">Assay layer</text>
+<g font-family="Arial" font-size="16" fill="#10252b">
+<rect x="30" y="78" width="255" height="78" rx="16" fill="#eef7f5"/><text x="52" y="110" font-weight="700">T-WGBS</text><text x="52" y="136" fill="#607177">low-input methylome profiling</text>
+<rect x="30" y="176" width="255" height="78" rx="16" fill="#f6f1e7"/><text x="52" y="208" font-weight="700">Structural epigenomics</text><text x="52" y="234" fill="#607177">i-motif / G4 / pH response</text>
+<rect x="30" y="274" width="255" height="78" rx="16" fill="#eef2f8"/><text x="52" y="306" font-weight="700">Orthogonal validation</text><text x="52" y="332" fill="#607177">biochemistry · imaging · function</text>
+</g>
+<path d="M157 365v35" stroke="#0b7468" stroke-width="5"/><path d="M145 392l12 14 12-14" fill="none" stroke="#0b7468" stroke-width="5"/>
+</g>
+<g transform="translate(795 185)" filter="url(#s)">
+<rect width="335" height="430" rx="26" fill="#fff" stroke="#dce5e2"/>
+<text x="28" y="42" font-family="Arial" font-size="17" font-weight="700" fill="#0b7468">Regulatory map</text>
+<g transform="translate(32 82)">
+<rect width="270" height="54" rx="12" fill="#f5f8f7"/>
+<g fill="#0b7468"><rect x="15" y="16" width="45" height="22" rx="5"/><rect x="76" y="16" width="70" height="22" rx="5" opacity=".55"/><rect x="164" y="16" width="36" height="22" rx="5" opacity=".8"/><rect x="220" y="16" width="35" height="22" rx="5"/></g>
+<g stroke="#dce5e2" stroke-width="8"><path d="M5 92h260"/><path d="M5 135h260"/><path d="M5 178h260"/><path d="M5 221h260"/></g>
+<g stroke="#0b7468" stroke-width="10" stroke-linecap="round"><path d="M20 92h62"/><path d="M105 92h74"/><path d="M206 92h42"/><path d="M34 135h90"/><path d="M153 135h76"/><path d="M18 178h120"/><path d="M175 178h72"/><path d="M55 221h57"/><path d="M145 221h100"/></g>
+<path d="M55 285c30-55 65-55 95 0s65 55 95 0" fill="none" stroke="#173f4a" stroke-width="7"/>
+<g fill="#3aa894"><circle cx="55" cy="285" r="10"/><circle cx="150" cy="285" r="10"/><circle cx="245" cy="285" r="10"/></g>
+</g>
+<text x="28" y="396" font-family="Arial" font-size="14" fill="#607177">state → mechanism → physiology</text>
+</g>
+<g stroke="#3aa894" stroke-width="5" fill="none"><path d="M374 400h42"/><path d="M406 390l12 10-12 10"/><path d="M744 400h42"/><path d="M776 390l12 10-12 10"/></g>
+</svg>
