@@ -6,7 +6,30 @@
   <title>Gu Laboratory | Epigenomics, Disease Biology & AI</title>
   <meta name="description" content="Gu Laboratory integrates experimental epigenomics, causal disease biology and artificial intelligence to study cell states, tissue remodelling and disease trajectories.">
   <link rel="stylesheet" href="assets/styles.css">
-  <link rel="stylesheet" href="assets/home-v2.css?v=20260923e">
+  <link rel="stylesheet" href="assets/home-v2.css">
+<style data-carousel-failsafe>
+.lab-carousel-section{padding:38px 0 18px;background:#fff}
+.lab-carousel-head{display:flex;flex-direction:column;align-items:center;gap:12px;margin:0 auto 16px;max-width:900px;text-align:center}
+.lab-carousel-head h2{font-size:24px;line-height:1.1;letter-spacing:-.02em;margin:0;font-weight:760}
+.lab-year-nav{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
+.lab-year-btn{appearance:none;border:1px solid #dce5e2;background:#fff;color:#607177;border-radius:999px;padding:6px 10px;font:inherit;font-size:12px;font-weight:760;cursor:pointer}
+.lab-year-btn.active{background:#10252b;border-color:#10252b;color:#fff}
+.lab-carousel{position:relative;max-width:900px;margin:0 auto}
+.lab-carousel-viewport{overflow:hidden;border-radius:16px;border:1px solid #dce5e2;background:#f6f8f7}
+.lab-carousel-track{display:flex;transition:transform .42s cubic-bezier(.22,.61,.36,1)}
+.lab-slide{flex:0 0 100%;margin:0;position:relative}
+.lab-slide-media{height:360px;display:grid;gap:8px;padding:8px;background:#eef2f1}
+.lab-slide-media img{width:100%;height:100%;object-fit:contain;object-position:center;min-width:0;min-height:0;border-radius:10px;background:#fff}
+.lab-slide-media.single{grid-template-columns:1fr}
+.lab-slide-media.duo{grid-template-columns:1fr 1fr}
+.lab-slide-media.trio{grid-template-columns:1.08fr .92fr;grid-template-rows:1fr 1fr}
+.lab-slide-media.trio .lab-slide-main{grid-row:1/3}
+.lab-slide figcaption{position:absolute;right:14px;bottom:12px;padding:6px 9px;border-radius:999px;background:rgba(7,31,38,.76);color:#fff;font-size:11px;font-weight:780;line-height:1}
+.lab-carousel-arrow{position:absolute;z-index:2;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;border:1px solid rgba(255,255,255,.78);background:rgba(7,31,38,.64);color:#fff;font-size:28px;line-height:1;display:grid;place-items:center;cursor:pointer}
+.lab-carousel-arrow.prev{left:12px}.lab-carousel-arrow.next{right:12px}
+@media(max-width:800px){.lab-slide-media{height:300px}}
+@media(max-width:560px){.lab-carousel-section{padding-top:24px}.lab-carousel-head h2{font-size:21px}.lab-slide-media{height:230px}}
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -146,6 +169,31 @@
     <small>© 2026 Gu Laboratory. All rights reserved.</small>
   </div>
 </footer>
-<script src="assets/script.js?v=20260923e"></script>
+<script src="assets/script.js"></script>
+<script data-carousel-failsafe>
+(function(){
+  const carousel=document.querySelector('[data-lab-carousel]');
+  if(!carousel)return;
+  const track=carousel.querySelector('.lab-carousel-track');
+  const slides=[...carousel.querySelectorAll('.lab-slide')];
+  const section=carousel.closest('.lab-carousel-section');
+  const tabs=[...section.querySelectorAll('.lab-year-btn')];
+  const prev=carousel.querySelector('.lab-carousel-arrow.prev');
+  const next=carousel.querySelector('.lab-carousel-arrow.next');
+  let current=0;
+  function show(i){
+    current=(i+slides.length)%slides.length;
+    track.style.transform='translateX(-'+(current*100)+'%)';
+    tabs.forEach((tab,n)=>{
+      tab.classList.toggle('active',n===current);
+      tab.setAttribute('aria-selected',n===current?'true':'false');
+    });
+  }
+  tabs.forEach((tab,n)=>tab.addEventListener('click',()=>show(n)));
+  if(prev)prev.addEventListener('click',()=>show(current-1));
+  if(next)next.addEventListener('click',()=>show(current+1));
+  show(0);
+})();
+</script>
 </body>
 </html>
