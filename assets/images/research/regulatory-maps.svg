@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-label="Stylised regulatory genomics illustration">
+<rect width="720" height="450" rx="28" fill="#f6f8f7"/>
+<g fill="none" stroke="#0b7468" stroke-width="5" stroke-linecap="round">
+<path d="M78 75c70 40 70 110 0 150s-70 110 0 150"/>
+<path d="M170 75c-70 40-70 110 0 150s70 110 0 150"/>
+</g>
+<g stroke="#89bdb4" stroke-width="3">
+<path d="M94 95h60M85 135h78M82 175h84M86 215h76M94 255h60M104 295h40M91 335h66"/>
+</g>
+<g fill="#3aa894"><circle cx="103" cy="109" r="8"/><circle cx="145" cy="152" r="8"/><circle cx="103" cy="231" r="8"/><circle cx="147" cy="314" r="8"/></g>
+<g transform="translate(250 78)">
+<rect x="0" y="0" width="380" height="54" rx="12" fill="#fff" stroke="#dce5e2"/>
+<rect x="18" y="17" width="76" height="20" rx="5" fill="#123a46"/><rect x="110" y="17" width="132" height="20" rx="5" fill="#89d4c5"/><rect x="258" y="17" width="42" height="20" rx="5" fill="#d8b56e"/><rect x="316" y="17" width="46" height="20" rx="5" fill="#0b7468"/>
+<path d="M12 105h356M12 145h356M12 185h356" stroke="#dce5e2" stroke-width="6"/>
+<path d="M42 105h84M164 105h72M282 105h52M76 145h104M224 145h96M22 185h120M186 185h52M270 185h78" stroke="#0b7468" stroke-width="8" stroke-linecap="round"/>
+<path d="M70 255c26-62 72-62 98 0s72 62 98 0 72-62 98 0" fill="none" stroke="#123a46" stroke-width="5"/>
+<circle cx="70" cy="255" r="9" fill="#3aa894"/><circle cx="168" cy="255" r="9" fill="#3aa894"/><circle cx="266" cy="255" r="9" fill="#3aa894"/><circle cx="364" cy="255" r="9" fill="#3aa894"/>
+</g></svg>
