@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Gu Laboratory DNA mark</title>
+<defs>
+  <linearGradient id="bg" x1="8" y1="6" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0b7468"/>
+    <stop offset="1" stop-color="#123f4b"/>
+  </linearGradient>
+</defs>
+<rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bg)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M18 13c20 9 20 29 0 38" stroke="#e9f5f2" stroke-width="3.2"/>
+  <path d="M46 13c-20 9-20 29 0 38" stroke="#8dd8c8" stroke-width="3.2"/>
+  <path d="M22 18h20M18.5 25h27M18 32h28M18.5 39h27M22 46h20" stroke="#d7ebe7" stroke-width="2" opacity=".9"/>
+</g>
+<circle cx="46" cy="13" r="4.2" fill="#d8b56e" stroke="#fff" stroke-width="1.2"/>
+</svg>
