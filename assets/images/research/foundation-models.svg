@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-label="Stylised bidirectional DNA foundation-model illustration">
+<rect width="720" height="450" rx="28" fill="#f6f8f7"/>
+<g transform="translate(55 70)">
+<path d="M0 90h165" stroke="#123a46" stroke-width="6"/><path d="M165 90l-18-12v24z" fill="#123a46"/>
+<path d="M165 135H0" stroke="#3aa894" stroke-width="6"/><path d="M0 135l18-12v24z" fill="#3aa894"/>
+<g fill="#0b7468"><circle cx="30" cy="90" r="8"/><circle cx="72" cy="90" r="8"/><circle cx="114" cy="90" r="8"/><circle cx="145" cy="90" r="8"/></g>
+<g fill="#89d4c5"><circle cx="30" cy="135" r="8"/><circle cx="72" cy="135" r="8"/><circle cx="114" cy="135" r="8"/><circle cx="145" cy="135" r="8"/></g>
+<g transform="translate(220 20)">
+<rect x="0" y="0" width="170" height="55" rx="14" fill="#fff" stroke="#dce5e2" stroke-width="3"/>
+<rect x="0" y="78" width="170" height="55" rx="14" fill="#fff" stroke="#dce5e2" stroke-width="3"/>
+<rect x="0" y="156" width="170" height="55" rx="14" fill="#fff" stroke="#dce5e2" stroke-width="3"/>
+<path d="M22 28h126M22 106h126M22 184h126" stroke="#0b7468" stroke-width="8" stroke-linecap="round"/>
+<path d="M85 55v23M85 133v23" stroke="#607177" stroke-width="4"/>
+</g>
+<g transform="translate(450 18)">
+<circle cx="70" cy="55" r="34" fill="#fff" stroke="#dce5e2" stroke-width="3"/><circle cx="70" cy="55" r="13" fill="#0b7468"/>
+<circle cx="20" cy="160" r="28" fill="#fff" stroke="#dce5e2" stroke-width="3"/><circle cx="20" cy="160" r="11" fill="#3aa894"/>
+<circle cx="120" cy="160" r="28" fill="#fff" stroke="#dce5e2" stroke-width="3"/><circle cx="120" cy="160" r="11" fill="#d8b56e"/>
+<circle cx="70" cy="248" r="30" fill="#fff" stroke="#dce5e2" stroke-width="3"/><circle cx="70" cy="248" r="12" fill="#123a46"/>
+<path d="M70 89L28 136M70 89l42 47M28 184l32 42M112 184l-32 42" stroke="#607177" stroke-width="4"/>
+</g>
+</g></svg>
