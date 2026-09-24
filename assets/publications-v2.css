@@ -25,3 +25,28 @@
 
 @media(max-width:1100px){.publication-visual{height:240px;flex-basis:240px}}
 @media(max-width:700px){.publication-visual{height:200px;flex-basis:200px}.publication-body{padding:18px 20px 22px}}
+
+.previous-publications{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
+.previous-publications .publication-feature-grouped{grid-column:1/-1;display:grid;grid-template-columns:minmax(360px,44%) minmax(0,1fr);min-height:0}
+.previous-publications .publication-feature-grouped .publication-visual{aspect-ratio:auto;height:100%;min-height:380px;border-bottom:0;border-right:1px solid var(--line)}
+.previous-publications .publication-feature-grouped .publication-visual img{object-fit:contain;padding:14px;background:#f8faf9}
+.publication-feature-grouped .publication-body{padding:28px 30px}
+.publication-feature-grouped .publication-body>h3{font-size:24px;margin-bottom:20px}
+.grouped-papers{display:grid;gap:0;border-top:1px solid var(--line)}
+.grouped-paper{padding:18px 0;border-bottom:1px solid var(--line)}
+.grouped-paper:last-child{border-bottom:0;padding-bottom:0}
+.grouped-paper h4{font-size:18px;line-height:1.35;letter-spacing:-.01em;margin:0 0 8px;color:var(--ink)}
+.grouped-paper .citation{margin:0 0 12px;font-size:14px;color:var(--muted)}
+.grouped-paper-meta{display:flex;justify-content:space-between;gap:18px;align-items:center}
+.grouped-paper-meta strong{font-size:13px}
+.grouped-paper-meta span{font-size:12px;color:var(--muted);text-align:right}
+@media(max-width:1100px){
+  .previous-publications{grid-template-columns:1fr}
+  .previous-publications .publication-feature-grouped{grid-column:auto;grid-template-columns:1fr}
+  .previous-publications .publication-feature-grouped .publication-visual{height:auto;min-height:0;aspect-ratio:16/10;border-right:0;border-bottom:1px solid var(--line)}
+}
+@media(max-width:700px){
+  .publication-feature-grouped .publication-body{padding:20px}
+  .grouped-paper-meta{align-items:flex-start;flex-direction:column;gap:5px}
+  .grouped-paper-meta span{text-align:left}
+}
