@@ -10,7 +10,7 @@
 @media(max-width:900px){.enquiries-box{grid-column:auto}}
 
 .program-side{display:flex;flex-direction:column;gap:14px;min-width:0}
-.program-image{width:100%;aspect-ratio:16/10;object-fit:contain;object-position:center;border:1px solid var(--line);border-radius:14px;background:#fff;padding:10px;box-shadow:0 8px 24px rgba(7,31,38,.06);overflow:hidden}
+.program-image{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:center;border:1px solid var(--line);border-radius:14px;background:#fff;padding:0;box-shadow:0 8px 24px rgba(7,31,38,.06);overflow:hidden;display:block}
 .program-side .meta{padding-top:2px}
 @media(max-width:900px){.program-side{grid-column:2}.program-image{max-width:420px}}
 @media(max-width:560px){.program-side{grid-column:auto}.program-image{max-width:none}}
