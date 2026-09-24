@@ -4,8 +4,8 @@
 
 .publication-feature{padding:0;overflow:hidden;min-height:0}
 .publication-visual{width:100%;aspect-ratio:16/10;height:auto;flex:0 0 auto;background:#f8faf9;border-bottom:1px solid var(--line);display:grid;place-items:center;overflow:hidden}
-.publication-visual img{width:100%;height:100%;object-fit:cover;object-position:center;padding:0;display:block}
-.publication-visual.image-figure{background:#fff}.publication-visual.image-figure img{object-fit:cover;background:#fff;padding:0}
+.publication-visual img{width:100%;height:100%;object-fit:contain;object-position:center;padding:8px;display:block;background:#f8faf9}
+.publication-visual.image-figure{background:#fff}.publication-visual.image-figure img{object-fit:contain;background:#fff;padding:8px}
 .publication-body{padding:22px 24px 24px;display:flex;flex-direction:column;flex:1;position:relative;z-index:2;background:#fff}
 .publication-body h3{margin:0 0 10px}
 .publication-body .citation{margin:0 0 18px}
