@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="t d">
+<title id="t">Disease mechanisms</title><desc id="d">Causal regulatory mechanisms linking chromatin changes to cell-state transitions and disease.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f8fbfa"/><stop offset="1" stop-color="#f3f6f5"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".08"/></filter></defs>
+<rect width="1200" height="750" rx="32" fill="url(#bg)"/>
+<text x="64" y="82" font-family="Arial" font-size="30" font-weight="700" fill="#10252b">CAUSAL REGULATORY MECHANISMS</text><text x="64" y="118" font-family="Arial" font-size="17" fill="#607177">chromatin perturbation → cell-state transition → tissue remodelling</text>
+<g transform="translate(70 180)" filter="url(#s)"><rect width="310" height="430" rx="26" fill="#fff" stroke="#dce5e2"/>
+<text x="28" y="42" font-family="Arial" font-size="17" font-weight="700" fill="#0b7468">Regulatory perturbation</text>
+<g transform="translate(34 90)">
+<path d="M10 75c45-65 85-65 130 0s85 65 130 0" fill="none" stroke="#173f4a" stroke-width="9"/>
+<g fill="#d8b56e"><circle cx="35" cy="42" r="12"/><circle cx="102" cy="91" r="12"/><circle cx="175" cy="52" r="12"/><circle cx="245" cy="92" r="12"/></g>
+<path d="M28 155h210" stroke="#dce5e2" stroke-width="8"/><path d="M50 155h62M145 155h70" stroke="#0b7468" stroke-width="12" stroke-linecap="round"/>
+<path d="M55 205c28-45 62-45 90 0s62 45 90 0" fill="none" stroke="#3aa894" stroke-width="7"/>
+<rect x="35" y="260" width="205" height="72" rx="16" fill="#eef7f5"/><text x="57" y="290" font-family="Arial" font-size="16" font-weight="700" fill="#10252b">BAZ2A / STAG2</text><text x="57" y="316" font-family="Arial" font-size="14" fill="#607177">regulatory architecture</text>
+</g></g>
+<g transform="translate(445 180)" filter="url(#s)"><rect width="310" height="430" rx="26" fill="#fff" stroke="#dce5e2"/>
+<text x="28" y="42" font-family="Arial" font-size="17" font-weight="700" fill="#0b7468">Cell-state transition</text>
+<g transform="translate(45 95)">
+<circle cx="60" cy="60" r="46" fill="#dcefea" stroke="#0b7468" stroke-width="5"/><circle cx="60" cy="60" r="18" fill="#8dd8c8"/>
+<path d="M116 60h72" stroke="#173f4a" stroke-width="6"/><path d="M176 48l15 12-15 12" fill="none" stroke="#173f4a" stroke-width="6"/>
+<circle cx="220" cy="60" r="46" fill="#f4e8cf" stroke="#d8b56e" stroke-width="5"/><circle cx="220" cy="60" r="18" fill="#d8b56e"/>
+<g font-family="Arial" font-size="14" fill="#607177"><text x="16" y="126">homeostatic</text><text x="179" y="126">disease state</text></g>
+<g fill="#0b7468"><rect x="22" y="180" width="220" height="22" rx="11"/><rect x="48" y="222" width="190" height="22" rx="11" opacity=".7"/><rect x="75" y="264" width="150" height="22" rx="11" opacity=".45"/></g>
+<text x="28" y="326" font-family="Arial" font-size="14" fill="#607177">interferon · VSMC · regeneration</text>
+</g></g>
+<g transform="translate(820 180)" filter="url(#s)"><rect width="310" height="430" rx="26" fill="#fff" stroke="#dce5e2"/>
+<text x="28" y="42" font-family="Arial" font-size="17" font-weight="700" fill="#0b7468">Disease phenotype</text>
+<g transform="translate(38 92)">
+<path d="M110 0c-42 32-65 78-65 127 0 72 54 130 121 130s121-58 121-130c0-49-23-95-65-127-16 28-34 42-56 42S126 28 110 0z" fill="#eef2f8" stroke="#173f4a" stroke-width="5"/>
+<path d="M107 52c-22 26-34 55-34 83 0 45 35 82 78 82s78-37 78-82c0-28-12-57-34-83" fill="none" stroke="#d8b56e" stroke-width="12" stroke-linecap="round"/>
+<g fill="#3aa894"><circle cx="84" cy="118" r="11"/><circle cx="205" cy="144" r="11"/><circle cx="127" cy="180" r="11"/></g>
+<rect x="23" y="296" width="220" height="58" rx="15" fill="#f6f8f7"/><text x="45" y="322" font-family="Arial" font-size="15" font-weight="700" fill="#10252b">cancer · vasculitis · heart</text><text x="45" y="345" font-family="Arial" font-size="13" fill="#607177">functional validation</text>
+</g></g>
+<g stroke="#3aa894" stroke-width="5"><path d="M386 395h48"/><path d="M424 385l12 10-12 10"/><path d="M761 395h48"/><path d="M799 385l12 10-12 10"/></g>
+</svg>
