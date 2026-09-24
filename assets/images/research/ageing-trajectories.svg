@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-label="Stylised ageing-clock and trajectory illustration">
+<rect width="720" height="450" rx="28" fill="#f6f8f7"/>
+<g transform="translate(70 65)">
+<circle cx="150" cy="150" r="108" fill="#fff" stroke="#dce5e2" stroke-width="5"/>
+<path d="M150 150L150 78M150 150l58 34" stroke="#123a46" stroke-width="8" stroke-linecap="round"/>
+<circle cx="150" cy="150" r="12" fill="#0b7468"/>
+<g stroke="#89bdb4" stroke-width="5"><path d="M150 34v22M150 244v22M34 150h22M244 150h22"/></g>
+<g transform="translate(310 12)" fill="none" stroke-width="6" stroke-linecap="round">
+<path d="M0 230C70 230 90 60 180 60s115 120 210 120" stroke="#0b7468"/>
+<path d="M0 255C90 220 120 160 190 165s115 60 200 25" stroke="#3aa894"/>
+<path d="M0 285C95 285 135 250 205 235s112-16 185-10" stroke="#d8b56e"/>
+</g>
+<g transform="translate(338 315)">
+<rect x="0" y="0" width="68" height="24" rx="7" fill="#123a46"/><rect x="78" y="0" width="42" height="24" rx="7" fill="#123a46"/><rect x="132" y="0" width="26" height="24" rx="7" fill="#123a46"/>
+<rect x="192" y="0" width="58" height="24" rx="7" fill="#89d4c5"/><rect x="262" y="0" width="32" height="24" rx="7" fill="#89d4c5"/><rect x="306" y="0" width="18" height="24" rx="7" fill="#89d4c5"/>
+</g>
+</g></svg>
