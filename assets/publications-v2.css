@@ -71,3 +71,11 @@
 @media(max-width:560px){
   .gu-lab-publications{grid-template-columns:1fr}
 }
+
+/* Compact visual for new perspectives; preserve full scientific figure. */
+.review-feature.is-perspective{grid-template-columns:180px minmax(0,1fr);gap:26px}
+.review-visual{width:180px;min-height:154px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#f7faf9}
+.review-feature.is-perspective .review-visual img{width:100%;height:auto;aspect-ratio:auto;max-height:180px;object-fit:contain;border:0;border-radius:0}
+.review-visual-fallback{padding:16px;color:var(--teal);font-size:12px;text-align:center;font-weight:750;line-height:1.5}
+.review-description{margin:6px 0 0;color:var(--muted);font-size:14px;line-height:1.6}
+@media(max-width:700px){.review-feature.is-perspective{grid-template-columns:1fr;gap:16px}.review-visual{width:180px}}
