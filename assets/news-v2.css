@@ -24,3 +24,8 @@
 .news-story p{margin:9px 0 0;color:var(--muted);font-size:13.5px;line-height:1.55}
 .oncology-perspective-news.image-unavailable{grid-template-columns:minmax(0,1fr)}
 .oncology-perspective-news .news-thumb{object-fit:contain;background:white;padding:4px}
+
+/* Featured publication announcements */
+.news-item.news-feature{gap:8px;align-items:start}
+.news-item.news-feature p{margin:0;max-width:78ch;color:var(--muted);font-size:14px;line-height:1.65}
+.news-item.news-feature p a{color:var(--teal);font-weight:700;text-decoration:underline;text-underline-offset:3px}
