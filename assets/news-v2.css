@@ -18,3 +18,9 @@
   .news-item,.news-item.has-image{grid-template-columns:1fr;gap:10px;padding:14px 0}
   .news-thumb,.news-thumb.contain{width:100%;height:auto;max-height:280px}
 }
+
+/* 2026 Cell Reports Medicine perspective */
+.news-story{min-width:0}
+.news-story p{margin:9px 0 0;color:var(--muted);font-size:13.5px;line-height:1.55}
+.oncology-perspective-news.image-unavailable{grid-template-columns:minmax(0,1fr)}
+.oncology-perspective-news .news-thumb{object-fit:contain;background:white;padding:4px}
